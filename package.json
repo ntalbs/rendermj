@@ -1,0 +1,24 @@
+{
+  "name": "rendermj",
+  "version": "0.0.1",
+  "description": "Render MathJax to SVG",
+  "keywords": [
+    "MathJax",
+    "SVG"
+  ],
+  "license": "ISC",
+  "author": "ntalbs",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "rendermj": "./src/index.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^15.1.0",
+    "mathjax-full": "^3.2.1"
+  }
+}
