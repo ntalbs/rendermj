@@ -1,6 +1,6 @@
 {
   "name": "rendermj",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Render MathJax to SVG",
   "keywords": [
     "MathJax",
@@ -11,7 +11,7 @@
   "type": "module",
   "main": "src/index.js",
   "bin": {
-    "rendermj": "./src/index.js"
+    "rendermj": "src/index.js"
   },
   "scripts": {
     "lint": "eslint .",
