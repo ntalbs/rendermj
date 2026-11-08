@@ -7,6 +7,7 @@ import { TeX } from 'mathjax-full/js/input/tex.js';
 import { SVG } from 'mathjax-full/js/output/svg.js';
 import { liteAdaptor } from 'mathjax-full/js/adaptors/liteAdaptor.js';
 import { RegisterHTMLHandler } from 'mathjax-full/js/handlers/html.js';
+import 'mathjax-full/js/input/tex/ams/AmsConfiguration.js';
 
 const adaptor = liteAdaptor();
 RegisterHTMLHandler(adaptor);
@@ -38,7 +39,6 @@ program
   .version(pkg.version)
   .argument('<input>', 'MathJax formula to render to SVG')
   .action((input, options) => {
-    console.log('Input: ', input);
     try {
       const svg = renderToSvg(input);
       process.stdout.write(svg);
