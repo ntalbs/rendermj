@@ -35,7 +35,7 @@ export function renderToSvg(input) {
 }
 
 program
-  .description('Render MathJax to SVG')
+  .description('Render MathJax to SVG.')
   .version(pkg.version)
   .argument('<input>', 'MathJax formula to render to SVG')
   .action((input, options) => {
