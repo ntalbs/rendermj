@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "description": "Render MathJax to SVG",
   "keywords": [
-    "MathJax",
-    "SVG"
+    "math",
+    "mathjax",
+    "latex",
+    "tex",
+    "formula",
+    "svg"
   ],
   "license": "ISC",
   "author": "ntalbs",
