@@ -31,6 +31,13 @@ export function renderToSvg(input) {
   });
 
   const svg = adaptor.innerHTML(node);
+
+  if (svg.includes('data-mjx-error')) {
+    const match = svg.match(/data-mjx-error="([^"]+)"/);
+    const errorMsg = match ? match[1] : 'Unknown MathJax rendering error';
+    throw new Error(errorMsg);
+  }
+
   return svg;
 }
 
