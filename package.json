@@ -1,6 +1,6 @@
 {
   "name": "rendermj",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Render MathJax to SVG",
   "keywords": [
     "math",
