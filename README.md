@@ -24,6 +24,7 @@ rendermj "f(x) = frac{1}{x}"
 </svg>
 ```
 
-This package is intended for use with Emacs' MathJax-Preview mode. If
-you are looking for a batch renderer, please refer to
+This package is intended for use with Emacs'
+[MathJax-Preview](https://github.com/ntalbs/mathjax-preview). If you
+are looking for a batch renderer, please refer to
 [render-math](https://www.npmjs.com/package/render-math).
